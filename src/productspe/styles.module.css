@@ -1,0 +1,22 @@
+#productspec{
+    width: 60%;
+    height: 700px;
+  
+    margin: 20px auto;
+    text-align: center;
+    padding: 10px;
+    
+   
+   
+}
+#productimg{
+    width: 80%;
+    margin-top: 20px;
+    height: 300px;
+    box-shadow: 4px 4px 4px red;
+    border-radius: 15px;
+
+}
+*{
+   background-color: bisque;
+}

@@ -1,0 +1,32 @@
+#pro{
+    text-align: center;
+}
+#productwrap{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.productcard{
+    width:  calc( 25% - 22px  );
+   
+    margin: 15px 10px;
+ text-align: center;
+ border-radius: 15px;
+ box-shadow: 2px 3px 3px black;
+ 
+ 
+}
+.img{
+    width: 100%;
+border-top-right-radius: 10px;
+border-top-left-radius: 10px;
+}
+
+@media(max-width:400px){
+    .productcard{
+        width: calc( 50% - 22px - 5px);
+
+    }
+}
+
+
